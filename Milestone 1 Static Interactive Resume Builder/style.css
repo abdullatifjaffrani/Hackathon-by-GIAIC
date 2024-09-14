@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 20px;    
+}
+
+.imgBox{
+    display: flex;
+    justify-content: center;
+}
+
+.img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background-image: url("Resources/img.jpeg");
+    background-size: contain;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 600px) {
+    main {
+        padding: 10px;
+    }
+
+    header img {
+        width: 100px;
+        height: 100px;
+    }
+}
